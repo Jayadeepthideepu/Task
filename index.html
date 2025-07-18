@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kanha Furniture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Kanha Furniture</h1>
+
+    <div class="product">
+        <h2>Wooden Chair</h2>
+        <p>Price: ₹1,999</p>
+        <form action="cart.php" method="POST">
+            <input type="hidden" name="product" value="Wooden Chair">
+            <input type="hidden" name="price" value="1999">
+            <button type="submit">Add to Cart</button>
+        </form>
+    </div>
+
+    <a href="cart.php">🛒 View Cart</a> | <a href="checkout.php">Checkout</a>
+</body>
+</html>
